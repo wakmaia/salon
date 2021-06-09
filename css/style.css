@@ -1,5 +1,6 @@
-﻿body
-{
+﻿body{
+
+	margin-top:200px;
 }
 form{
 	/*display: inline-block;*/
@@ -7,4 +8,11 @@ form{
 }
 p{
 	color: blue;
+}
+
+input[type=submit]{
+
+input[type=submit]{
+	background-color: black;
+	color: white;
 }
