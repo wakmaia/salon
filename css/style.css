@@ -1,10 +1,41 @@
-﻿body
-{
+﻿body{
+	
+	background-color: whitesmoke;
+	margin-top:200px;
 }
 form{
 	/*display: inline-block;*/
-	font-family: sans-serif;
+	
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: white;
+	padding: 30px;
+	width: 400px;
+	margin: auto;
+	
 }
 p{
 	color: blue;
 }
+
+
+input[type=submit]{
+	background-color: black;
+	color: white;
+	border-color: #ced4da;
+	width:200px;
+	height:40px;
+}
+
+input{
+	border-radius: 7px;
+	height:35px ;
+	width: 270px;
+}
+label{
+	display: block;
+	text-align: left;
+	margin-left: 60px;
+	margin-bottom: 1.5px;
+	margin-top: 10px;
+}
+
