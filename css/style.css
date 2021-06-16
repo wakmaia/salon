@@ -13,9 +13,6 @@ form{
 	margin: auto;
 	
 }
-p{
-	color: blue;
-}
 
 
 input[type=submit]{
@@ -39,3 +36,23 @@ label{
 	margin-top: 10px;
 }
 
+p{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: blue;
+}
+
+
+.tabelaCentral{
+	display: table;
+	width: auto;
+}
+.Linha{
+	display: table-row;
+	width: auto;
+}
+
+.Coluna{
+	display: table-column;
+	width: 200px;
+}
