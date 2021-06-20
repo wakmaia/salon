@@ -1,4 +1,4 @@
-﻿body{
+body{
 	
 	background-color: whitesmoke;
 	margin-top:200px;
@@ -9,10 +9,8 @@ form{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	background-color: white;
 	padding: 30px;
-	width: 400px;
+	width: 40%;
 	margin: auto;
-	align-items: center;
-	display: flex;
 	
 }
 
@@ -23,32 +21,34 @@ input[type=submit]{
 	border-color: #ced4da;
 	width:200px;
 	height:40px;
+    align-items: center;
 }
 
 input{
 	border-radius: 7px;
 	height:35px ;
-	width: 270px;
-	padding-left: 3%;
+	width: 270px;/* para todos inputs*/
+    padding-left: 3%;
+   
 }
+input#email{
+    width: 570px;
+ }
+
 label{
 	display: block;
 	text-align: left;
-	margin-left: 60px;
 	margin-bottom: 1.5px;
 	margin-top: 10px;
 }
-
-
 
 p{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: blue;
+    text-align: center;
 }
 
-.space{
-	
-	margin:auto;
-
+td{
+    padding-left:30px;
 }
