@@ -10,10 +10,7 @@ form{
 	background-color: white;
 	padding: 30px;
 	width: 400px;
-	margin: auto;
-	align-items: center;
-	display: flex;
-	
+	margin: auto;	
 }
 
 
@@ -31,6 +28,7 @@ input{
 	width: 270px;
 	padding-left: 3%;
 }
+
 label{
 	display: block;
 	text-align: left;
