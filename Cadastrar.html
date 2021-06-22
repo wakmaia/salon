@@ -5,48 +5,39 @@
     <head>
         <meta charset="utf-8" />
         <title> W Maia Texturização | Cadastrar</title>
-        <link rel="stylesheet" href="css/cadastrar.css">
+        <link rel="stylesheet" href="css/style.css">
     
     </head>
     <body  >
         <form align="center" > 
-            <h1>W Maia Texturização</h1>
+            <img src="img/logo.png" alt="logo W Maia Texturização">
 
-            <table>
-                <tr>
-                    <td><label for"name">Nome*</label></br></td> 
-                    <td><label for"sname">Apelido*</label></br></td> 
-                </tr>
-                <tr>
-                    <td><input type="text" id="name" name="name" placeholder="Nome"></br> </td>
-                    <td><input type="text" id="text" name="sname" placeholder="Apelido"></br> </td>
-                </tr>   
+                 <div class="alinhar" >
+                    <label for"name">Nome*</label></br>
+                    <input type="text" id="name" name="name" placeholder="Nome"></br>
+
+                    <label for"sname">Apelido*</label></br> 
+                    <input type="text" id="text" name="sname" placeholder="Apelido"></br> 
+                </div> 
                      
-                <tr>
-                    <td> <label for"name">Email*</label></br> </td>
-                </tr> 
-                
-                <tr>
-                   <td colspan="2"><input type="email" id="email" name="name" placeholder="E-mail"></br> </td>
-                </tr>
+                <div class="naoAlinhar">
+                     <label for"name">Email*</label></br> 
+                    <input type="email" id="email" name="name" placeholder="E-mail"></br> 
+                </div>
 
-                <tr>
-                <td> <label for"name">Palavra Passe*</label></br></td>
-                <td><label for"sname">Repetir Palavra Passe*</label></br></td>
-                </tr>
+               <div class="alinhar">
+                    <label for"name">Palavra Passe*</label></br>             
+                    <input type="text" id="name" name="name" placeholder="Palavra Passe"></br>
 
-                <tr>
-                <td> <input type="text" id="name" name="name" placeholder="Palavra Passe"></br></td>
-                 <td><input type="text" id="text" name="sname" placeholder="Repetir Palavra Passe"></br></td>
-                </tr>
+                    <label for"sname">Repetir Palavra Passe*</label></br>
+                    <input type="text" id="text" name="sname" placeholder="Repetir Palavra Passe"></br>
+                </div>
 
-                <tr>
-                  <td colspan="2"> <center><input type="submit" value="Criar Conta" class ="space" ></br></center> </td> 
-                </tr>
-                <tr>
-                  <td colspan="2"> <p> <a class="space" href="Entrar.html"> ou iniciar sessao</a> </p> </td>    
-                </tr>
-            </table>
+                <div class="naoAlinhar">
+                    <input type="submit" value="Criar Conta" class ="space" ></br>
+                    <p> <a class="space" href="Entrar.html"> ou iniciar sessao</a> </p>    
+                </div>
+           
         </form>
     </body>
 </html>

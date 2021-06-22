@@ -1,8 +1,10 @@
-﻿body{
-	
+﻿/*Estilos para a pagina de Entrar*/
+
+body{	
 	background-color: whitesmoke;
 	margin-top:200px;
 }
+
 form{
 	/*display: inline-block;*/
 	
@@ -20,6 +22,7 @@ input[type=submit]{
 	border-color: #ced4da;
 	width:200px;
 	height:40px;
+	border: 1px solid #ced4da;
 }
 
 input{
@@ -27,6 +30,8 @@ input{
 	height:35px ;
 	width: 270px;
 	padding-left: 3%;
+	border: none;
+	border: 1px solid #ced4da;
 }
 
 label{
@@ -37,16 +42,30 @@ label{
 	margin-top: 10px;
 }
 
-
-
 p{
 	padding-top: 10px;
 	padding-bottom: 10px;
 	color: blue;
 }
 
-.space{
-	
+.space{	
 	margin:auto;
+}
+
+img{
+	width: 25%;
+}
+/*Estilos para a pagina de Cadastrar*/
+.alinhar{
+	display: flex;
 
 }
+
+.naoAlinhar{
+	;
+}
+
+
+
+
+
