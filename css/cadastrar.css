@@ -9,9 +9,8 @@ form{
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
 	background-color: white;
 	padding: 30px;
-	width: 50%;
+	width:480px;
 	margin: auto;
-	
 }
 
 
@@ -20,21 +19,26 @@ input[type=submit]{
 	color: white;
 	border-color: #ced4da;
 	width:200px;
-	height:40px;
-    align-items: center;
-	display: flex;
-    padding-top: 50px;
+	height:50px;
+	border: none;
+	border: 1px solid #ced4da;
+	display: block;
+	margin: 0 auto;
+	font-size: 16px;
 }
 
 input{
 	border-radius: 7px;
 	height:35px ;
-	width: 270px;/* para todos inputs*/
+	width: 230px;/* para todos inputs*/
     padding-left: 3%;
+	border: none;
+	border: 1px solid #ced4da;
+	margin-right: 20px;
    
 }
 input#email{
-    width: 570px;
+    width: 483px;
  }
 
 label{
@@ -42,6 +46,8 @@ label{
 	text-align: left;
 	margin-bottom: 1.5px;
 	margin-top: 10px;
+	padding: 0;
+    margin: 0;
 }
 
 p{
@@ -51,6 +57,19 @@ p{
     text-align: center;
 }
 
-td{
-    padding-left:30px;
+img{
+	width: 25%;
+}
+
+.alinhar{
+	display: flex;
+
+}
+
+.coluna{
+	display: flex;
+	flex-direction: column;
+}
+.naoAlinhar{
+	
 }
