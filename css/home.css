@@ -1,0 +1,44 @@
+.um{
+    display: flex;
+    /*background-image: url(img/header.jpg);*/
+    background-color: burlywood;
+    background-position: top;
+}
+
+.dois{
+    display: flex;
+    background-color:blueviolet;
+}
+
+.tres{
+    display: flex;
+}
+.linha{
+    display: flex;
+    background-color: whitesmoke;
+    width: 80%;
+    height: 50%;
+}
+.coluna_l{
+    display: flex;
+    background-position: left;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    }
+
+.coluna_r{
+    display: flex;
+    flex-direction: column;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+}
+
+footer{
+    position: fixed;
+}
