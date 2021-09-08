@@ -4,6 +4,9 @@
     background-color: burlywood;
     background-position: top;
 }
+.nav{
+    display: inline;
+}
 
 .dois{
     display: flex;
